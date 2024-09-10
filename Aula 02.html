@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="templatea2.css" />
+            <title>Formulário Vaga</title>
+        </head>
+    <body>
+        <div class="total">
+            <div class="title">
+                <h1>Vaga Dev Sr</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png">
+            </div>
+            <form action="" method="post">
+                    <div class="container">
+                        <div class="formname">
+                            <label>Nome</label><br>
+                            <input type="text" name="Nome" placeholder="John" required>
+                        </div>
+                        <div class="formsurname">
+                            <label>Sobrenome</label><br>
+                            <input type="text" name="Sobrenome" placeholder="Kennedy" required>
+                        </div>
+                    </div><br>
+                    <div class="container">
+                        <div class="formdate">
+                            <label>Data de Nascimento</label><br>
+                            <input type="date" name="Born" max="2007-01-01" required>
+                        </div>
+                        <div class="formport">
+                            <label>Portfólio</label><br>
+                            <input type="text" name="Portfolio" placeholder="Portfólio" required>
+                        </div>
+                    </div><br>
+                        <label>E-mail</label><br>
+                        <input type="email" name="email" placeholder="exemplo@mail.com" required class="email"><br><br>
+                        <label>Currículo</label><br>
+                        <input type="file" name="cv" required><br><br>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>
